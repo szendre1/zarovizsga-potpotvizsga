@@ -44,6 +44,8 @@ public class UniqueFinderTest {
         expected.add('a');
         expected.add('b');
         expected.add('c');
+        System.out.println(expected);
+        System.out.println(uniqueFinder.uniqueChars("abac"));
         assertEquals(expected, uniqueFinder.uniqueChars("abac"));
     }
 
